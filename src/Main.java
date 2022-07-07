@@ -6,7 +6,7 @@ public class Main {
 
         int bonusRubles;
 
-        if (replenishmentAmount >= 1000) {
+        if (replenishmentAmount > 1000) {
             bonusRubles = replenishmentAmount / rubles;
         } else {
             bonusRubles = 0;
